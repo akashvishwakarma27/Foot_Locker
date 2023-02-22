@@ -1,0 +1,408 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+#box1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#box1 > a{
+    font-weight: bold;
+    color: rgb(101, 170, 198);
+}
+
+#box2{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+    justify-content: end;
+    height: 40px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    border-bottom: 1.5px solid white;
+}
+
+#box2 > div{
+width: 400px;
+display: flex;
+justify-content: space-between;
+font-weight: bold;
+margin-right: 18px;
+}
+
+#box2 > div > a {
+  color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#last{
+  width: 300px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+
+nav > a > img{
+    margin-left: 20px;
+    width: 162px;
+    height: 42px;
+}
+
+#shop{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+nav > div > a{
+    text-decoration: none;
+    font-weight: bold;
+        color: white;
+}
+
+#box3{
+    /* width: px; */
+    display: flex;
+    height: 29px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.search__input {
+  font-family: inherit;
+  font-size: inherit;
+  background-color: #f4f2f2;
+  border: none;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  /* border-radius: 30px; */
+  width: 12em;
+  transition: all ease-in-out .5s;
+  margin-right: -2rem;
+}
+
+.search__input:hover, .search__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search__input:focus {
+  outline: none;
+  background-color: #f0eeee;
+}
+
+.search__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #ccc;
+}
+
+.search__input:focus + .search__button {
+  background-color: #f0eeee;
+}
+
+.search__button {
+  border: none;
+  background-color: #f4f2f2;
+  margin-top: .1em;
+}
+
+.search__button:hover {
+  cursor: pointer;
+}
+
+.search__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #b4b4b4;
+}
+
+
+
+
+#offer{
+  margin-top: 17px;
+  font-size: 19px;
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: space-around;
+}
+.offers{
+  width: 49%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  /* border: 1px solid black; */
+  justify-content: center;;
+    background-color: #fcf4f4;
+}
+.offers img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.offers a{
+  margin-left: 3px;
+  color: #646464;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+#poster{
+  /* height: 200px; */
+  background-image: url(./poster\ main.jpg);
+  background-size: cover;
+}
+
+#poster > a{
+  text-decoration: none;
+  color: black;
+  line-height: 55px;
+
+}
+
+#poster > a > div{
+  padding-top: 43px;
+  padding-left: 60px;
+  /* width: 600px; */
+  height: 230px;
+  /* border: 1px solid black; */
+}
+
+#poster > a > div > h1{
+  font-size: 45px;
+}
+#poster > a > div > p{
+  font-size: 20px;
+}
+
+#poster > a > div > button{
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #000;
+  color: white;
+  border: none;
+}
+#poster > a > div > button:hover{
+  background-color: rgb(165, 161, 151);
+  border-bottom: 3px solid #000;
+  /* color: black; */
+}
+
+
+
+.shop{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+justify-content: center;
+align-items: center;
+/* border: 1px solid #000; */
+}
+
+.shop > div {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #000; */
+  text-align: center;
+}
+
+.shop > div > a > img {
+  width: 100%;
+}
+/* .shop > div > a{
+ text-decoration-color: #000;
+ text-decoration-line: initial;
+} */
+.shop > div > a > p{
+  color: black;
+}
+.shop > div > a{
+  text-decoration: none;
+}
+
+.brand{
+  height: 120px;
+  /* border: 1px solid #000; */
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.brand > a > img{
+  width: 95%;
+}
+
+
+.shop-2{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.shop-2 > div > a > img {
+  width: 95%;
+}
+
+.shop h3, p {
+  color: #000;
+}
+
+#poster2{
+  background-image: url(./poster2.webp);
+  background-size: cover;
+  height: 500px;
+  /* border: 1px solid #000; */
+  margin-top: 50px;
+}
+
+#poster2 > a > div{
+  /* border: 1px solid #000; */
+  height: 320px;
+  padding-left: 60px;
+  padding-top: 180px;
+}
+#poster2 > a > div > h1{
+  font-size: 50px;
+  color: black;
+}
+#poster2 > a > div > p{
+  font-size: 18px;
+  font-weight: bold;
+}
+#poster2 > a > div > button{
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #000;
+  color: white;
+  border: none;
+}
+#poster2 > a > div > button:hover{
+  background-color: rgb(165, 161, 151);
+  border-bottom: 3px solid #000;
+}
+
+#poster2 > a{
+  text-decoration: none;
+  line-height: 55px;
+
+}
+
+.shop-3{
+  display: flex;
+  /* border: 1px solid black; */
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.shop-3 > div {
+  width: 33%;
+  /* border: 1px solid black; */
+  padding: 0px 15px 0px 15px;
+  text-align: center;
+  /* line-height: -30px; */
+}
+
+.shop-3 > div > a:nth-child(4){
+  text-decoration: none;
+  color: #1d1c1c;
+  font-weight: bold;
+}
+
+.shop-3 > div > a:nth-child(4):hover{
+  border-bottom: 2px solid black;
+}
+
+.shop-3 img {
+  width: 100%;
+}
+
+.shop-3 h1 {
+  font-size: 30px;
+  width: 350px;
+  margin: 15px;
+  padding-left: 38px;
+}
+.shop-3 p{
+  font-size: 18px;
+  width: 450px;
+  margin: 15px;
+  color: rgb(21, 21, 21);
+  line-height: 25px;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #060505;
+  color: white;
+}
+
+#foot-1{
+  display: flex;
+  justify-content: space-between;
+width: 90%;
+margin: auto;
+}
+
+#foot-1 > div {
+  margin: 20px;
+  line-height: 35px;
+}
+
+#foot-1 h3{
+font-size: 29px;
+font-weight: bold;
+}
+
+#foot-1 p{
+  font-size: 15
+  px;
+  width: 300px;
+  color: rgb(223, 222, 220);
+}
+#foot-1 button{
+  width: 200px;
+  height: 40px;
+  font-weight: bold;
+}
+
+#foot-1 button{
+  color: white;
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid white;
+  background-color: #060505;
+}
