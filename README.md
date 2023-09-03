@@ -1,2 +1,2 @@
 # flowing-basketball-1538
-https://www.footlocker.com/
+Foot Locker: Reliable platform offering authentic shoes and trusted brands.
